@@ -1,0 +1,27 @@
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright (JavaScript) automation suite for https://www.saucedemo.com/ covering Login, Products, Cart, Checkout, and Logout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:products": "playwright test tests/products.spec.js",
+    "test:cart": "playwright test tests/cart.spec.js",
+    "test:checkout": "playwright test tests/checkout.spec.js",
+    "test:logout": "playwright test tests/logout.spec.js",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report reports/html-report",
+    "codegen": "playwright codegen https://www.saucedemo.com"
+  },
+  "keywords": ["playwright", "automation", "e2e", "saucedemo", "pom"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "validCustomer": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "customerWithSpecialChars": {
+    "firstName": "O'Brien-Smith",
+    "lastName": "D'Souza",
+    "postalCode": "12345"
+  }
+}
